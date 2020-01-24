@@ -10,7 +10,7 @@ const ContactItem = ({ contact }) => {
 
   const onDelete = () => {
     deleteContact(id);
-    clearCurrent(id);
+    clearCurrent();
   };
 
   return (
